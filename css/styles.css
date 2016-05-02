@@ -1,0 +1,229 @@
+/** {
+	border: 1px dashed white;
+}*/
+
+#home {
+	margin-top: -8px;
+	margin-bottom: 0px;
+	margin-left: -8px;
+	margin-right: -8px;
+	padding: 120px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #7d726e;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	color: #fff8e1;
+	height: 100vh;
+}
+#home h1 {
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3.5rem;
+}
+
+#me img{
+	width: 25%;
+	height: 58%;
+	box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.71);
+	display: inline-block;
+}
+#me div {
+	margin: auto;
+	width: 500px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 1.5rem;
+	padding-top: 0px;
+}
+#me div p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+#projects {
+  margin-top: 0px;
+  margin-right: -8px;
+  margin-left: -8px;
+  height: 100vh;
+  padding: 0px;
+  background-color: #6E797D;
+  background:
+  linear-gradient(
+  		rgba(110, 121, 125, 0.65), 
+      	rgba(110, 121, 125, 0.65)
+    ),
+		url("../images/SQL-Snippet.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+#projects h1 {
+	margin-top: 0px;
+	margin-bottom: 8px;
+	line-height: 90px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 3.5rem;
+}
+
+#projects div {
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px auto;
+	max-width: 560px;
+	height: 400px;
+	padding-top: 15px;
+	background-color: #6e797d;
+	border-radius: 3px;
+	box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.71);
+}
+#projects div:not(first-child) {
+	margin-top: 20px;
+}
+
+#projects div img {
+	max-width:90%;
+	/*max-height:90%;*/
+}
+
+#projects div p a:link, a:visited {
+	color: #fff8e1;
+}
+
+#projects div p a:link:active, a:visited:active {
+	color: #fff8e1;
+}
+
+nav.main {
+	height: 100px;
+	position: absolute;
+	width: 100%;
+	bottom: -23px;
+	left: 0px;
+	z-index: 999;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+nav.main ul {
+	max-width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	zoom: 1;
+	display: block;
+	border-top: 1px solid #E6E0CB;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+
+nav.main li {
+   display:inline-block;
+   *display:inline; /*IE7*/
+   *zoom:1; /*IE7*/
+   margin-right: 20px;
+   padding-bottom: 0px;
+}
+
+nav.main li:nth-child(5) {
+	margin-right: 0px;
+}
+
+nav.main a {
+	display: block;
+	color: #fff8e1;
+	text-transform: uppercase;
+	padding-top: 28px;
+	padding-bottom: 0px;
+	border-top: 2px solid transparent;
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+}
+
+nav.main a:hover {
+	border-top: 2px solid #E6E0CB;
+}
+.toprojects:hover {
+	background: linear-gradient(135deg, rgba(84,74,82,0) 0%, rgba(84,74,82,0.76) 100%);	
+}
+.toservices:hover {
+	background: linear-gradient(135deg, rgba(162,149,159,0) 0%, rgba(162,149,159,0.76) 100%);
+}
+.tocontact:hover {
+	background: linear-gradient(135deg, rgba(121,125,110,0) 0%, rgba(121,125,110,0.76) 100%);
+}
+.togithub:hover {
+	background: linear-gradient(135deg, rgba(110,125,114,0) 0%, rgba(110,125,114,0.76) 100%);
+}
+.tolinkedin:hover {
+	background: linear-gradient(135deg, rgba(110,121,125,0) 0%, rgba(110,121,125,0.76) 100%);
+}
+
+nav.sticky {
+/*	background-image: url('/img/head-bg.png');
+	background-color: #fff;*/
+	position: fixed;
+	color: #000;
+	width: 100%;
+	left: 0px;
+	z-index: 999;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+	top: 0px;
+	bottom: auto;
+}
+
+nav.sticky ul {
+	text-align: left;
+	height: 50px;
+	padding: 0px 0px 0px 40px;
+	margin: 0px;
+}
+
+nav.sticky li {
+   display:inline-block;
+   *display:inline; /*IE7*/
+   *zoom:1; /*IE7*/
+   margin-left: 20px;
+	margin-right: 20px;
+	vertical-align: middle;
+	height: 36px;
+}
+
+nav.sticky a {
+	text-transform: uppercase;
+	color: #E6E0CB;
+	margin-top: 11px;
+	display: inline-block;
+	height: 100%;
+}
+
+nav.sticky a.active {
+	border-bottom: 1px solid #c0bc93;
+}
+
+nav.sticky a:hover {
+   -o-transition:.5s;
+   -ms-transition:.5s;
+   -moz-transition:.5s;
+   -webkit-transition:.5s;
+	border-bottom: 1px solid #5D6D63;
+}
+
+nav ul {
+	padding: 0px;
+	list-style: none;
+}
+
+nav a {
+	height: 50px;
+}
+    
