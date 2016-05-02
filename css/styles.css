@@ -1,7 +1,42 @@
 /** {
 	border: 1px dashed white;
 }*/
+body {
+	margin: 0;
+	padding: 0;
+}
 
+#contact {
+   padding: 0px;
+   background-color: rgba(110, 125, 114, 0.6);
+   visibility: hidden;
+   float: right;
+   height: 40px;
+}
+
+#contact ul {
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+}
+#contact li {
+   float: right;
+   padding: 3px 8px;
+   margin: 0 10px 0 0;
+   color: #fff8e1;
+   list-style-type: none;
+}
+#contact li a {
+   color: #fff8e1;  
+   text-decoration: none;
+   display: block;
+}
+#contact li a:hover {
+   text-decoration: underline;   
+}
+br.clearLeft {
+   clear: right;        
+}
 #home {
 	margin-top: -8px;
 	margin-bottom: 0px;
@@ -47,7 +82,6 @@
   margin-top: 0px;
   margin-right: -8px;
   margin-left: -8px;
-  height: 100vh;
   padding: 0px;
   background-color: #6E797D;
   background:
@@ -59,15 +93,19 @@
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
+  font-family: 'Orbitron', sans-serif;
 }
 
 #projects h1 {
 	margin-top: 0px;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 	line-height: 90px;
 	text-align: center;
-	font-family: 'Orbitron', sans-serif;
 	font-size: 3.5rem;
+}
+
+#projects h2 {
+	font-family: 'Orbitron', sans-serif;
 }
 
 #projects div {
@@ -75,11 +113,12 @@
 	vertical-align: top;
 	margin: 10px auto;
 	max-width: 560px;
-	height: 400px;
+	height: 550px;
 	padding-top: 15px;
 	background-color: #6e797d;
 	border-radius: 3px;
 	box-shadow: 0px 3px 16px 2px rgba(0, 0, 0, 0.71);
+	font-family: sans-serif;
 }
 #projects div:not(first-child) {
 	margin-top: 20px;
@@ -225,5 +264,52 @@ nav ul {
 
 nav a {
 	height: 50px;
+}
+
+#skills {
+	font-family: 'Orbitron', sans-serif;
+	text-align: center;
+	background-color: #6e7d72;
+	margin: 0px -8px -8px -8px;
+	bottom: 0;
+}
+
+#skills h1 {
+	font-size: 3.5rem;
+	text-align: center;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	line-height: 90px;
+}
+
+#skills div {
+	margin: auto;
+
+    /* Firefox */
+    display:-moz-inline-box;
+    -moz-box-pack:center;
+    -moz-box-align:center;
+
+    /* Safari and Chrome */
+    display:-webkit-inline-box;
+    -webkit-box-pack:center;
+    -webkit-box-align:center;
+
+    /* W3C */
+    display: inline-box;
+    box-pack:center;
+    box-align:center;
+}
+
+.skillList {
+	list-style-type: none;
+	font-size: 1.7rem;
+	text-align: left;
+}
+
+.skillList ul {
+	list-style-type: square;
+	font-size: 1.4rem;
+	font-family: sans-serif;
 }
     

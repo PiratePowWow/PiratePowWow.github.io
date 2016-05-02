@@ -1,55 +1,117 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
-<link rel="shortcut icon" type="image/ico" href="./images/favicon.png" />
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" type="image/ico" href="./images/favicon.png" />
 	<link rel="stylesheet" href="./css/styles.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="./images/font-awesome-4.6.1/css/font-awesome.min.css">
+	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>
+	<script type='text/javascript' src="app.js"></script>
 	<title></title>
 </head>
 <body>
-<div id="home">
-	<h1>James Powell</h1>
-	<div id="me">
-		<img src="./images/Lo-Res-James-Powell-no-border.png">
+	<div id="home">
+		<h1>James Powell</h1>
+		<div id="me">
+			<img src="./images/Lo-Res-James-Powell-no-border.png">
+			<div>
+				<p>Lorem ipsum dolor sit amet, et mea wisi albucius necessitatibus, ne sed veniam iriure liberavisse. At duo ubique consulatu, id modo elitr mel. Ullum vituperatoribus no nec, sed cu oratio democritum. Brute virtute voluptaria id vim. Duo ne aeque dissentias, mea accommodare disputationi ex. Veri appellantur cum at.
+				</p>
+			</div>
+		</div>
+		<nav class="main">
+			<ul>
+				<li><a class="toprojects" href="#">Projects</a></li>
+				<li><a class="toservices" href="#">Skills</a></li>
+				<li><a class="tocontact" href="#">Contact</a></li>
+				<li><a class="togithub" href="https://github.com/PiratePowWow">Github</a></li>
+				<li><a class="tolinkedin" href="https://www.linkedin.com/home?trk=nav_responsive_tab_home">Linked In</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div id="projects">
+		<h1>Projects</h1>
 		<div>
-			<p>Lorem ipsum dolor sit amet, et mea wisi albucius necessitatibus, ne sed veniam iriure liberavisse. At duo ubique consulatu, id modo elitr mel. Ullum vituperatoribus no nec, sed cu oratio democritum. Brute virtute voluptaria id vim. Duo ne aeque dissentias, mea accommodare disputationi ex. Veri appellantur cum at.
+			<a href="http://ec2-52-201-38-61.compute-1.amazonaws.com/">
+				<img src="./images/LiarsDice.png">
+			</a>
+			<h2>Liar's Dice</h2>
+			<p>A multiplayer game based on the physical dice game of <a href="https://en.wikipedia.org/wiki/Liar%27s_dice">Liar's Dice<a>. Highlights of the application are the use of websockets for real-time communication and support for multiple concurrent games. The API is built to be stand-alone which will enable a 3rd party front-end to use it such as a future native mobile app.<a href="https://github.com/PiratePowWow/LiarsDice">GitHub</a>
 			</p>
+			<p>Back-end Tech: Java, Spring Boot, JPA, H2 Database, SQL, Websockets(Stomp, SockJS) </p>
+			<p>Front-end Tech: Javascript, Underscore, Jquery, CSS3, HTML, Websockets(Stomp, SockJS)</p>
+		</div>
+
+		<div>
+			<a href="http://ec2-52-201-38-61.compute-1.amazonaws.com:4567/">
+				<img src="./images/Fetch.png">
+			</a>
+			<h2>Fetch</h2>
+			<p>A web app completed after only 5 weeks of classes. Fetch allows users to request items/services and drivers to accept and fulfill requests. It served as a teamwork challenge with each team tasked to build a unique crud app over a weekend. The back-end was built entirely by myself. The front-end was built by my three teammates. Fetch highlights the successful implementation of a minimal web framework and raw SQL.<a href="https://github.com/PiratePowWow/Fetch">GitHub</a>
+			</p>
+			<p>Back-end Tech: Java, Spark Web Framework, H2 Database, SQL</p>
+			<p>Front-end Tech: Javascript, Jquery, CSS, HTML</p>
 		</div>
 	</div>
-	<nav class="main">
-		<ul>
-			<li><a class="toprojects" href="#">Projects</a></li>
-			<li><a class="toservices" href="#">Skills</a></li>
-			<li><a class="tocontact" href="#">Contact</a></li>
-			<li><a class="togithub" href="https://github.com/PiratePowWow">Github</a></li>
-			<li><a class="tolinkedin" href="https://www.linkedin.com/home?trk=nav_responsive_tab_home">Linked In</a></li>
-		</ul>
-	</nav>
-</div>
-
-<div id="projects">
-	<h1>Projects</h1>
-	<div>
-		<a href="http://ec2-52-201-38-61.compute-1.amazonaws.com/">
-			<img src="./images/LiarsDice.png">
-		</a>
-		<h3>Liar's Dice</h3>
-		<p>A multiplayer game based on the physical dice game of <a href="https://en.wikipedia.org/wiki/Liar%27s_dice">Liar's Dice<a>. Highlights of the application are the use of websockets for real-time communication and support for multiple concurrent games. The API is built to be stand-alone which will enable a 3rd party front-end to use it such as a future native mobile app.
-		</p>
-		<p>Back-end Tech: Java, Spring Boot, JPA, H2 Database, SQL, Websockets(Stomp, SockJS) </p>
-		<p>Front-end Tech: Javascript, Underscore, Jquery, CSS3, HTML, Websockets(Stomp, SockJS)</p>
-	</div>
-
-	<div>
-		<a href="http://ec2-52-201-38-61.compute-1.amazonaws.com:4567/">
-			<img src="./images/Fetch.png">
-		</a>
-		<h3>Fetch</h3>
-		<p>A web app completed after only 5 weeks of classes. Fetch allows users to request items/services and drivers to accept and fulfill requests. It served as a teamwork challenge with each team tasked to build a unique crud app over a weekend. The back-end was built entirely by myself. The front-end was built by my three teammates. Fetch highlights the successful implementation of a minimal web framework and raw SQL.
-		</p>
-		<p>Back-end Tech: Java, Spark Web Framework, H2 Database, SQL</p>
-		<p>Front-end Tech: Javascript, Jquery, CSS, HTML</p>
-	</div>
-</div>
+	<div id="contact">
+        <ul>
+            <li><a href="#" class="smoothScroll"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="smoothScroll"><i class="fa fa-phone fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="smoothScroll"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a></li>
+            <li><a href="#" class="smoothScroll"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
+        </ul>    
+        <br class="clearLeft" />
+    </div>
+    <div id="skills">
+    	<h1>Skills</h1>
+    	<div>
+			<ul class="skillList">
+				<li><strong>Languages</strong>
+					<ul>
+						<li>Java</li>
+						<li>Clojure</li>
+						<li>SQL</li>
+						<li>Javascript</li>
+						<li>HTML</li>
+						<li>CSS</li>
+						<li>Git</li>
+					</ul>
+				</li>
+				<li><strong>Programming Philosophies</strong>
+					<ul>
+						<li>Object-Oriented</li>
+						<li>Functional</li>
+						<li>REST</li>
+						<li>Object-Relational Mapping</li>
+						<li>Agile/SCRUM</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<div>
+			<ul class="skillList">
+				<li><strong>Databases</strong>
+					<ul>
+						<li>H2</li>
+						<li>PostgreSQL</li>
+						<li>JPA(Hibernate)</li>
+					</ul>
+				</li>
+				<li><strong>FrameWorks/Libraries</strong>
+					<ul>
+						<li>Spring Boot</li>
+						<li>Spark Java</li>
+						<li>JavaFX</li>
+						<li>DevTools</li>
+						<li>Mustache</li>
+						<li>Hiccup</li>
+						<li>Jquery</li>
+						<li>Websockets(Stomp, SockJS)</li>
+						<li>JSON(various)</li>
+					</ul>
+				</li>		
+			</ul>
+		</div>
+    </div> 
 </body>
 </html>
