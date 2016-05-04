@@ -22,8 +22,8 @@ body {
 	}
 	body #me p {
 		font-size: 0.75rem;
-		margin-left: 0.5rem;
-		margin-right: 0.5rem;
+		margin-left: 0.1rem;
+		margin-right: 0.1rem;
 	}
 	body #me img {
 		margin-bottom: 0.7rem;
@@ -31,7 +31,7 @@ body {
 	}
 	body #me div {
 		margin-top: 0;
-		max-width: 80%;
+		max-width: 95%;
 	}
 	body #projects h1 {
 		font-size: 2rem;
@@ -429,7 +429,7 @@ nav a {
 #contactInfo {
 	font-family: 'Orbitron', sans-serif;
 	text-align: center;
-	background-color: #6e7d72;
+	background-color: rgb(110, 121, 125);
 	color: #fff8e1;
 	margin:auto;
 	margin-bottom: 0;
@@ -456,6 +456,9 @@ nav a {
 }
 #contactInfo ul li {
 	line-height: 1.5rem;
+}
+#contactInfo ul li a {
+	color: inherit;
 }
 #contactInfo ul li:nth-child(2){
 	font-family: sans-serif;
