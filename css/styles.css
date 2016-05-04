@@ -14,16 +14,19 @@ body {
 	html, body {
 		font-size: 22px;
 	}
+	body #home h1 {
+		margin: 0 0 0.5rem 0;
+	}
 	body #me {
 		max-width: 19rem;
 	}
 	body #me p {
-		font-size: 0.8rem;
+		font-size: 0.75rem;
 		margin-left: 0.5rem;
 		margin-right: 0.5rem;
 	}
 	body #me img {
-		margin-bottom: 1.2rem;
+		margin-bottom: 0.7rem;
 		max-width: 35%;
 	}
 	body #me div {
