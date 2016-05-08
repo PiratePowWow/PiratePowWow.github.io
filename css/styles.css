@@ -10,7 +10,94 @@ body {
 	padding: 0;
 	background-size: cover;
 }
-@media all and (max-width: 768px) {
+@media all and (max-width: 320px){
+	html, body {
+		font-size: 17px;
+	}
+	body #home h1 {
+		margin: 0 0 0.5rem 0;
+	}
+	body #me {
+		max-width: 19rem;
+	}
+	body #me p {
+		font-size: 0.75rem;
+		margin-left: 0.1rem;
+		margin-right: 0.1rem;
+		line-height:1rem;
+	}
+	body #me img {
+		margin-bottom: 0.7rem;
+		max-width: 35%;
+	}
+	body #me div {
+		margin-top: 0;
+		max-width: 95%;
+	}
+	body #projects h1 {
+		font-size: 2rem;
+	}
+	body #projects div {
+		max-width: 90%;
+	}
+	body #projects div p {
+		margin-left: 0.2rem;
+		margin-right: 0.2rem;
+	}
+	body #projects div:not(first-child) {
+		margin-left: 0px;
+	}
+	body #skills h1 {
+		font-size: 2rem;
+	}
+	body #skills div {
+		max-width: 90%;
+		padding-left: 0;
+	}
+	body #skills div:nth-child(3) {
+		margin-bottom: 2rem;
+	}
+	.skillList {
+		padding: 0;
+		margin-top: 0;
+		margin-bottom: 0.5rem;
+	}
+	.skillList ul {
+		margin-bottom: 0.5rem
+	}
+	.skillList li {
+		font-size: 1.1rem;
+	}
+	.skillList ul li {
+		font-size: 1rem;
+		padding-left: 2rem;
+		list-style-type: none;
+	}
+	body #home h1 {
+		font-size: 2rem;
+	}
+	body nav.main {
+		font-size: 0.55rem
+	}
+	body nav.main li {
+		margin-right: 0.2rem;
+	}
+	body #contact {
+		width: 100%;
+		font-size: 1.2rem;
+	}
+	body #contact li {
+		margin-left: 0.9rem;
+	}
+	body #contactInfo h1 {
+		font-size: 2rem;
+	}
+	body #contactInfo img {
+		max-width: 30%;
+	}
+}
+
+@media all and (max-width: 768px) and (min-width: 321px) {
 	html, body {
 		font-size: 22px;
 	}
